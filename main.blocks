@@ -1,0 +1,25 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="/#:%56wijf}c*O~ax3-$" x="0" y="0"><statement name="HANDLER"><block type="radio_set_group" id="GCN*Cb2%|a{U:z97Gu3m"><value name="ID"><shadow type="math_number_minmax" id="g/D~HOz_ZfDZJdElC;[`"><mutation min="0" max="255" label="Id" precision="0"></mutation><field name="SLIDER">1</field></shadow></value></block></statement></block><block type="device_forever" id="J`^~W}Ze)A=$*U=MC@ZB" x="745" y="143"><statement name="HANDLER"><block type="controls_if" id="3)g^sq8cFy-.P}umaFLn"><mutation elseif="2" else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="device_get_button2" id="lfU]@Zwa3FD.}T.6v$)_"><field name="NAME">Button.AB</field></block></value><statement name="DO0"><block type="device_show_leds" id="b$sH2-WpJF/0nBZ@$**["><field name="LEDS">`
+        . . # . . 
+        . # # # . 
+        # . # . # 
+        . . # . . 
+        . . # . .
+        `</field><next><block type="radio_datagram_send_string" id="c^WaR9vek9j@r,gmem.E"><value name="msg"><shadow type="text" id=".G]fD:}q[-4PxW10D7Eb"><field name="TEXT">menj</field></shadow></value></block></next></block></statement><value name="IF1"><block type="device_get_button2" id="hUxYFlFv^h%n],:jv9o+"><field name="NAME">Button.A</field></block></value><statement name="DO1"><block type="device_show_leds" id="*0)38m4fsY},E[%?i?W-"><field name="LEDS">`
+        . . # . . 
+        . # . . . 
+        # # # # # 
+        . # . . . 
+        . . # . .
+        `</field><next><block type="radio_datagram_send_string" id="f|cnzNcm$A+GZj2`0NUz"><value name="msg"><shadow type="text" id="[-1={iI8CX_Lx)[=*?3Q"><field name="TEXT">balra</field></shadow></value></block></next></block></statement><value name="IF2"><block type="device_get_button2" id="nsWvP%_+F$tzw%GY*VZd"><field name="NAME">Button.B</field></block></value><statement name="DO2"><block type="device_show_leds" id="![%|2uwAMw1N]k*ut/]A"><field name="LEDS">`
+        . . # . . 
+        . . . # . 
+        # # # # # 
+        . . . # . 
+        . . # . .
+        `</field><next><block type="radio_datagram_send_string" id="mza{hB7(D4ahwV{_lX,Q"><value name="msg"><shadow type="text" id="hDKy[*#zTK)8UZac=2ia"><field name="TEXT">jobbra</field></shadow></value></block></next></block></statement><statement name="ELSE"><block type="device_show_leds" id="c0Em4gJsyj9XSE`gfrk*"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></statement></block></statement></block></xml>
