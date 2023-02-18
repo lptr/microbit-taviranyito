@@ -27,6 +27,15 @@ basic.forever(function () {
             . . # . .
             `)
         radio.sendString("jobbra")
+    } else if (input.logoIsPressed()) {
+        basic.showLeds(`
+            . . # . .
+            . . # . .
+            # . # . #
+            . # # # .
+            . . # . .
+            `)
+        radio.sendString("tolass")
     } else {
         basic.showLeds(`
             . . . . .
