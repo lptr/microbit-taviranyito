@@ -35,5 +35,6 @@ basic.forever(function () {
             . . . . .
             . . . . .
             `)
+        radio.sendString("állj")
     }
 })
