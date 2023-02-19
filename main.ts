@@ -1,24 +1,25 @@
 radio.setGroup(1)
 basic.forever(function () {
     if (input.buttonIsPressed(Button.AB)) {
-        basic.showLeds(`
-            . . # . .
-            . # # # .
-            # . # . #
-            . . # . .
-            . . # . .
-            `)
         radio.sendString("menj")
+        basic.showLeds(`
+            . . # . .
+            . # # # .
+            # . # . #
+            . . # . .
+            . . # . .
+            `)
     } else if (input.buttonIsPressed(Button.A)) {
-        basic.showLeds(`
-            . . # . .
-            . # . . .
-            # # # # #
-            . # . . .
-            . . # . .
-            `)
         radio.sendString("balra")
+        basic.showLeds(`
+            . . # . .
+            . # . . .
+            # # # # #
+            . # . . .
+            . . # . .
+            `)
     } else if (input.buttonIsPressed(Button.B)) {
+        radio.sendString("jobbra")
         basic.showLeds(`
             . . # . .
             . . . # .
@@ -26,8 +27,8 @@ basic.forever(function () {
             . . . # .
             . . # . .
             `)
-        radio.sendString("jobbra")
     } else if (input.logoIsPressed()) {
+        radio.sendString("tolass")
         basic.showLeds(`
             . . # . .
             . . # . .
@@ -35,8 +36,8 @@ basic.forever(function () {
             . # # # .
             . . # . .
             `)
-        radio.sendString("tolass")
     } else {
+        radio.sendString("állj")
         basic.showLeds(`
             . . . . .
             . . . . .
@@ -44,6 +45,5 @@ basic.forever(function () {
             . . . . .
             . . . . .
             `)
-        radio.sendString("állj")
     }
 })
